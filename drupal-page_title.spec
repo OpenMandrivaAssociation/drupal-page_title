@@ -40,3 +40,10 @@ rm -f %{buildroot}%{_var}/www/drupal/modules/%{modname}/*.txt
 %defattr(644,root,root,755)
 %{_var}/www/drupal/modules/%{modname}
 %doc CHANGELOG.txt README.txt
+
+
+%changelog
+* Sat May 12 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 7.x.2.7-1
++ Revision: 798444
+- imported package drupal-page_title
+
